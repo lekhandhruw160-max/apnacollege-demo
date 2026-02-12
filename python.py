@@ -1,10 +1,5 @@
-
-
+num = int(input("enter some number :"))
 i = 1
-while i <=100:
-    if i % 2 == 1:
-        i += 1
-        continue
-    print(i)
+while i <= 10:
+    print(i * num  )
     i += 1
-
